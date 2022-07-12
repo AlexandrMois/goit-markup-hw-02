@@ -1,3 +1,13 @@
+body  {
+    font-family:"Roboto", sans-serif;
+}
+
+:root {
+    --accent-color: #2196F3 ;
+    --main-light-color-text: #FFFFFF ;
+    --main-black-color-text: #212121;
+}
+
 .list {
     list-style: none;
 }
@@ -5,3 +15,47 @@
 .link {
     text-decoration: none;
 }
+/* Header */
+.span-logo {
+    color: var(--accent-color);
+}
+
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+}
+
+.logo-top {
+    color: #000000;
+}
+
+.logo-bot {
+    color: var(--main-light-color-text);
+}
+
+.menu-nav {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+
+        color: var(--main-black-color-text);
+}
+
+/* /Header */
+
+
+
+
+
+
+
+/* Footer */
+
+/* /Footer */
