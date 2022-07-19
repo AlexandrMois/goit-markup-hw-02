@@ -76,15 +76,11 @@ body  {
 
 .contacts-bot {
 
-
-    
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-     color: rgba(255, 255, 255, 0.6);
-
-    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
      
 }
 /* /Header */
@@ -257,5 +253,9 @@ font-weight: 400;
     color: var(--secondary-text-color);
 }
 
+
+.adress {
+    font-style: normal;
+}
 
 /* /Portfolio */
